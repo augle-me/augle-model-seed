@@ -1,0 +1,24 @@
+{
+  "name": "augle-model-seed",
+  "version": "1.0.0",
+  "description": "This is the seed project for building model and creating .arpk file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augle-me/augle-model-seed.git"
+  },
+  "author": "naga bandaru <bhaskar@auracuz.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augle-me/augle-model-seed/issues"
+  },
+  "homepage": "https://github.com/augle-me/augle-model-seed#readme",
+  "devDependencies": {
+    "@augle/gulp-arpk-build": "^0.3.1",
+    "@augle/gulp-arpk-check": "^0.3.1",
+    "gulp": "^3.9.1"
+  }
+}
