@@ -4,7 +4,9 @@
   "description": "This is the seed project for building model and creating .arpk file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp arpk",
+	"compile": "babel model -d lib"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,15 @@
   },
   "homepage": "https://github.com/augle-me/augle-model-seed#readme",
   "devDependencies": {
-    "@augle/gulp-arpk-build": "^0.3.1",
-    "@augle/gulp-arpk-check": "^0.3.1",
-    "gulp": "^3.9.1"
+    "@augle/gulp-arpk-build": "^0.3.2",
+    "@augle/gulp-arpk-check": "^0.3.2",
+    "gulp": "^3.9.1",
+    "three": "^0.84.0",
+	"babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
   }
 }
