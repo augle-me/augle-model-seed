@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var arpkBuild = require('@augle/gulp-arpk-build');
 var arpkCheck = require('@augle/gulp-arpk-check');
 var fs = require('fs');
-var arpkConfig = JSON.parse(fs.readFileSync('./arpk-config.json'));
+var arpkConfig = JSON.parse(fs.readFileSync('./arpk.config.json'));
 gulp.task('arpk', ['arpk-check'], function () {
   return gulp.src(arpkConfig.files)
   .pipe(arpkBuild({
