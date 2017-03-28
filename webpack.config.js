@@ -1,8 +1,8 @@
 var path = require('path');
 module.exports = {
-  entry: './test/load.js',
+  entry: './preview/load.js',
   output: {
-    path: __dirname + '/build/',
+    path: __dirname + '/temp/',
     filename: 'bundle.js'
   },
   module: {
@@ -20,7 +20,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.join(__dirname, "test"),
+    contentBase: path.join(__dirname, "preview"),
     compress: true,
     port: 9000
   }
