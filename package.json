@@ -18,16 +18,19 @@
     "url": "https://github.com/augle-me/augle-model-seed/issues"
   },
   "homepage": "https://github.com/augle-me/augle-model-seed#readme",
+  "dependencies": {
+    "@types/three": "^0.84.3"
+  },
   "devDependencies": {
-    "@augle/gulp-arpk-build": "^0.3.2",
-    "@augle/gulp-arpk-check": "^0.3.2",
+    "@augle/gulp-arpk-build": "^0.5.18",
+    "@augle/gulp-arpk-check": "^0.4.16",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "gulp": "^3.9.1",
     "html-webpack-plugin": "^2.26.0",
     "three": "^0.84.0",
-    "webpack": "^2.2.0",
+    "webpack": "git+https://github.com/augle-me/webpack.git",
     "webpack-dev-server": "^2.4.2"
   }
 }

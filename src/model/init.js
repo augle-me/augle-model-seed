@@ -1,11 +1,8 @@
 import { BoxGeometry, MeshBasicMaterial, Mesh } from 'three';
-class MyBox extends Mesh {
-
-  constructor (geometry, material) {
+export var __auglemodel = class MyBox extends Mesh {
+  constructor (config, geometry, material) {
     super(geometry, material);
-    this.geometry = new BoxGeometry(1, 1, 1);
-    this.material = new MeshBasicMaterial({color: 0x00ffff});
+    this.geometry = new BoxGeometry(10, 10, 20);
+    this.material = new MeshBasicMaterial({color: 0xff0000});
   }
 }
-
-export var model = new MyBox();
