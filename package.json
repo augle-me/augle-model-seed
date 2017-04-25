@@ -22,8 +22,8 @@
     "@types/three": "^0.84.3"
   },
   "devDependencies": {
-    "@augle/gulp-arpk-build": "^0.6.2",
-    "@augle/gulp-arpk-check": "^0.6.2",
+    "@augle/gulp-arpk-build": "^0.7.1",
+    "@augle/gulp-arpk-check": "^0.7.1",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
@@ -31,6 +31,6 @@
     "html-webpack-plugin": "^2.26.0",
     "three": "^0.84.0",
     "webpack": "git+https://github.com/augle-me/webpack.git",
-    "webpack-dev-server": "^2.4.2"
+    "webpack-dev-server": "^2.4.4"
   }
 }
