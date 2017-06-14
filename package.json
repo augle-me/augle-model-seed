@@ -22,7 +22,7 @@
     "@types/three": "^0.84.3"
   },
   "devDependencies": {
-    "@augle/gulp-arpk-build": "^0.7.1",
+    "@augle/gulp-arpk-build": "^0.8.6",
     "@augle/gulp-arpk-check": "^0.7.1",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
