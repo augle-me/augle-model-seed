@@ -46,10 +46,6 @@ augle-model-seed/
 |    ├──model/              * Model files can be grouped in this folder
 |    |  └──init.js          * Main model file
 |    └──manifest.json       * Model related metadata file, VERY IMPORTENT for releasing the model to public
-├──preview/                 * Preview folder, Used for previewing the model for development
-|    ├──load.js             * load file for loading model (model under src/ folder)
-|    └──index.html          * index file
-├──temp/                    * temp build files ( Nothing much to know, building byproducts, you can ignore)
 ├──dist/                    * when you run > npm run build, .arpk file will we placed in this folder
 ├──arpk.config.json         * build configuration file, for .arpk build
 ├──gulpfile.js
@@ -59,9 +55,7 @@ augle-model-seed/
 
 ### 2. Previewing
 
-while developing the model, you can preview it in the browser using the command `npm run preview`. When files under the `src/` changes then preview get updated in the browser.
-
-Files under `preview/` folder will be used to show the preview, these files don't go into `.arpk` file. Previewing feature is available to speed up the development process.
+while developing the model, you can preview it in the browser using the command `npm run preview`. When files under the `src/` changes then you need to run `npm run preview` to get displayed in the browser.
 
 ### 3. arpk.config.json files
 
