@@ -49,7 +49,6 @@ augle-model-seed/
 ├──dist/                    * when you run > npm run build, .arpk file will we placed in this folder
 ├──arpk.config.json         * build configuration file, for .arpk build
 ├──gulpfile.js
-├──webpack.config.js
 └──package.json
 ```
 
