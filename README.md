@@ -80,7 +80,8 @@ Sample manifest.json looks like this
 {
    "main": "./model/init.js",
    "verCode": 1,
-   "version": "1.0.0"
+   "version": "1.0.0",
+   "modelId": "com.augle.simpleboard"
 }
 ```
 
